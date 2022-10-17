@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.menu {
+    width: 7%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.item {
+    padding: 10px 10px;
+}
+
+.item:hover {
+    background: #ccc;
+}
+
+.img {
+    text-align: center;
+}
+
+.img-i {
+    width: 200px;
+    height: 100px;
+}
+
+.main-content {
+    text-align: center;
+    background: #ccc;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+.menu-content {
+    width: 100%;
+    display: flex;
+    margin: 20px 20px;
+}
+
+.content-item {
+    width: 33%;
+}
+
+.img-a {
+    width: 50px;
+    height: 100px;
+}
+
